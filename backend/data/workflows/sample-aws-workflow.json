@@ -1,0 +1,69 @@
+{
+    "id": "sample-aws-workflow",
+    "name": "AWS EC2 Instance Launcher",
+    "description": "Launch and configure an AWS EC2 instance with custom parameters",
+    "category": "AWS",
+    "variables": [
+        {
+            "name": "instance_type",
+            "description": "EC2 instance type",
+            "type": "select",
+            "default_value": "t2.micro",
+            "options": [
+                "t2.micro",
+                "t2.small",
+                "t2.medium",
+                "t3.micro",
+                "t3.small"
+            ]
+        },
+        {
+            "name": "ami_id",
+            "description": "Amazon Machine Image ID",
+            "type": "string",
+            "default_value": "ami-0c55b159cbfafe1f0"
+        },
+        {
+            "name": "instance_name",
+            "description": "Name tag for the instance",
+            "type": "string",
+            "default_value": "MyInstance"
+        },
+        {
+            "name": "key_pair",
+            "description": "SSH key pair name",
+            "type": "string",
+            "default_value": "my-key-pair"
+        }
+    ],
+    "steps": [
+        {
+            "id": "step-1",
+            "name": "Validate AWS CLI",
+            "type": "command",
+            "content": "aws --version",
+            "variables": {}
+        },
+        {
+            "id": "step-2",
+            "name": "Launch EC2 Instance",
+            "type": "command",
+            "content": "aws ec2 run-instances --image-id {ami_id} --instance-type {instance_type} --key-name {key_pair} --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value={instance_name}}]'",
+            "variables": {
+                "ami_id": "ami_id",
+                "instance_type": "instance_type",
+                "key_pair": "key_pair",
+                "instance_name": "instance_name"
+            }
+        },
+        {
+            "id": "step-3",
+            "name": "List Running Instances",
+            "type": "command",
+            "content": "aws ec2 describe-instances --filters 'Name=tag:Name,Values={instance_name}' --query 'Reservations[*].Instances[*].[InstanceId,State.Name,PublicIpAddress]' --output table",
+            "variables": {
+                "instance_name": "instance_name"
+            }
+        }
+    ]
+}

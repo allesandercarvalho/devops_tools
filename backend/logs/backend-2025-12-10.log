@@ -1,0 +1,124 @@
+{"level":"info","message":"Starting DevOps Tools API","timestamp":"2025-12-10T00:28:02-03:00"}
+{"level":"info","message":"Server starting","port":"3002","timestamp":"2025-12-10T00:28:02-03:00","version":"2.0"}
+{"level":"info","message":"Starting DevOps Tools API","timestamp":"2025-12-10T09:29:19-03:00"}
+{"level":"info","message":"Server starting","port":"3002","timestamp":"2025-12-10T09:29:19-03:00","version":"2.0"}
+{"count":4,"level":"info","message":"Executing ping","target":"google.com","timestamp":"2025-12-10T09:31:24-03:00"}
+{"count":4,"level":"info","message":"Executing ping","target":"google.com","timestamp":"2025-12-10T09:31:55-03:00"}
+{"level":"info","max_hops":30,"message":"Executing traceroute","target":"google.com","timestamp":"2025-12-10T09:34:50-03:00"}
+{"level":"info","max_hops":5,"message":"Executing traceroute","target":"google.com","timestamp":"2025-12-10T09:35:49-03:00"}
+{"level":"info","max_hops":5,"message":"Executing traceroute","target":"google.com","timestamp":"2025-12-10T09:35:51-03:00"}
+{"level":"info","max_hops":5,"message":"Executing traceroute","target":"google.com","timestamp":"2025-12-10T09:35:52-03:00"}
+{"level":"info","max_hops":5,"message":"Executing traceroute","target":"google.com","timestamp":"2025-12-10T09:35:53-03:00"}
+{"level":"info","message":"Executing DNS lookup","target":"8.8.8.8","timestamp":"2025-12-10T09:36:33-03:00","type":"A"}
+{"level":"info","message":"Executing DNS lookup","target":"8.8.8.8","timestamp":"2025-12-10T09:36:37-03:00","type":"A"}
+{"level":"info","message":"Executing DNS lookup","target":"8.8.8.8","timestamp":"2025-12-10T09:36:40-03:00","type":"CNAME"}
+{"level":"info","message":"Executing DNS lookup","target":"8.8.8.8","timestamp":"2025-12-10T09:36:43-03:00","type":"NS"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-10T09:36:56-03:00","type":"NS"}
+{"level":"info","message":"Executing DNS lookup","target":"amigotech.com.br","timestamp":"2025-12-10T09:37:07-03:00","type":"NS"}
+{"level":"info","message":"Executing DNS lookup","target":"amigotech.com.br","timestamp":"2025-12-10T09:37:19-03:00","type":"A"}
+{"domain":"amigotech.com.br","level":"info","message":"Executing whois","timestamp":"2025-12-10T09:38:01-03:00"}
+{"count":4,"level":"info","message":"Executing ping","target":"google.com","timestamp":"2025-12-10T09:38:48-03:00"}
+{"count":4,"level":"info","message":"Executing ping","target":"google.com","timestamp":"2025-12-10T09:39:33-03:00"}
+{"count":4,"level":"info","message":"Executing ping","target":"google.com","timestamp":"2025-12-10T09:40:45-03:00"}
+{"count":4,"level":"info","message":"Executing ping","target":"google.com","timestamp":"2025-12-10T09:43:33-03:00"}
+{"count":4,"level":"info","message":"Executing ping","target":"google.com","timestamp":"2025-12-10T09:43:54-03:00"}
+{"level":"info","max_hops":10,"message":"Executing traceroute","target":"google.com","timestamp":"2025-12-10T09:44:43-03:00"}
+{"level":"info","max_hops":30,"message":"Executing traceroute","target":"google.com","timestamp":"2025-12-10T09:45:19-03:00"}
+{"level":"info","max_hops":10,"message":"Executing traceroute","target":"google.com","timestamp":"2025-12-10T09:45:39-03:00"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-10T09:46:08-03:00","type":"A"}
+{"args":["-T3","-F","GOOGLE.COM"],"level":"info","message":"Executing nmap","target":"GOOGLE.COM","timestamp":"2025-12-10T09:49:36-03:00"}
+{"args":["-T3","-F","GOOGLE.COM"],"level":"info","message":"Executing nmap","target":"GOOGLE.COM","timestamp":"2025-12-10T09:49:38-03:00"}
+{"domain":"GOOGLE.COM","level":"info","message":"Executing whois","timestamp":"2025-12-10T09:49:56-03:00"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-10T09:51:31-03:00","type":"A"}
+{"level":"info","message":"Executing DNS lookup","target":"amigotech.com.br","timestamp":"2025-12-10T09:51:47-03:00","type":"A"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-10T09:52:05-03:00","type":"A"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-10T09:52:22-03:00","type":"A"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-10T09:52:40-03:00","type":"A"}
+{"domain":"google.com","level":"info","message":"Checking DNS propagation","timestamp":"2025-12-10T09:53:06-03:00","type":"A"}
+{"domain":"amigotech.com.br","level":"info","message":"Checking DNS propagation","timestamp":"2025-12-10T09:53:34-03:00","type":"A"}
+{"domain":"amigotech.com.br","level":"info","message":"Checking DNS propagation","timestamp":"2025-12-10T09:53:53-03:00","type":"A"}
+{"args":["-T3","-F","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T09:54:41-03:00"}
+{"count":4,"level":"info","message":"Executing ping","target":"google.com","timestamp":"2025-12-10T10:00:07-03:00"}
+{"level":"info","max_hops":10,"message":"Executing traceroute","target":"google.com","timestamp":"2025-12-10T10:01:38-03:00"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-10T10:02:19-03:00","type":"A"}
+{"domain":"google.com","level":"info","message":"Checking DNS propagation","timestamp":"2025-12-10T10:02:32-03:00","type":"A"}
+{"domain":"google.com","level":"info","message":"Checking DNS propagation","timestamp":"2025-12-10T10:02:55-03:00","type":"A"}
+{"args":["-T3","-F","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T10:03:11-03:00"}
+{"domain":"google.com","level":"info","message":"Executing whois","timestamp":"2025-12-10T10:03:19-03:00"}
+{"count":4,"level":"info","message":"Executing ping","target":"google.com","timestamp":"2025-12-10T10:07:50-03:00"}
+{"host":"google.com","level":"info","message":"Checking TCP port","port":80,"timestamp":"2025-12-10T10:08:10-03:00"}
+{"host":"google.com","level":"info","message":"Checking TCP port","port":443,"timestamp":"2025-12-10T10:08:19-03:00"}
+{"level":"info","max_hops":30,"message":"Executing traceroute","target":"google.com","timestamp":"2025-12-10T10:08:43-03:00"}
+{"level":"info","max_hops":10,"message":"Executing traceroute","target":"google.com","timestamp":"2025-12-10T10:09:05-03:00"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-10T10:09:41-03:00","type":"A"}
+{"count":4,"level":"info","message":"Executing ping","target":"google.com","timestamp":"2025-12-10T10:12:13-03:00"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-10T10:12:38-03:00","type":"A"}
+{"args":["-T3","-F","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T10:12:50-03:00"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-10T10:15:29-03:00","type":"A"}
+{"args":["-T3","-F","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T10:15:51-03:00"}
+{"args":["-T3","-F","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T10:15:53-03:00"}
+{"args":["-T3","-F","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T10:15:53-03:00"}
+{"args":["-T3","-F","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T10:15:54-03:00"}
+{"args":["-T3","-F","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T10:15:54-03:00"}
+{"args":["-T3","-F","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T10:15:54-03:00"}
+{"domain":"google.com","level":"info","message":"Executing whois","timestamp":"2025-12-10T10:16:02-03:00"}
+{"host":"google.com","level":"info","message":"Inspecting TLS","port":443,"timestamp":"2025-12-10T10:16:37-03:00"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-10T10:18:27-03:00","type":"CNAME"}
+{"count":4,"level":"info","message":"Executing ping","target":"google.com","timestamp":"2025-12-10T10:44:13-03:00"}
+{"host":"google.com","level":"info","message":"Checking TCP port","port":80,"timestamp":"2025-12-10T10:44:26-03:00"}
+{"host":"google.com","level":"info","message":"Checking TCP port","port":443,"timestamp":"2025-12-10T10:44:34-03:00"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-10T10:44:48-03:00","type":"A"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-10T10:45:17-03:00","type":"A"}
+{"args":["-T3","-F","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T10:45:51-03:00"}
+{"domain":"google.com","level":"info","message":"Executing whois","timestamp":"2025-12-10T10:45:59-03:00"}
+{"args":["-T3","-F","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T10:48:04-03:00"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-10T11:06:35-03:00","type":"A"}
+{"args":["-T3","-F","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T11:06:47-03:00"}
+{"args":["-T3","-F","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T11:06:49-03:00"}
+{"args":["-T3","-F","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T11:06:49-03:00"}
+{"args":["-T3","-F","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T11:06:49-03:00"}
+{"args":["-T3","-F","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T11:06:49-03:00"}
+{"args":["-T3","google.com"],"level":"info","message":"Executing nmap","target":"google.com","timestamp":"2025-12-10T11:06:58-03:00"}
+{"data_keys":["terraform","kubernetes","timestamp","aws"],"fields.timestamp":"2025-12-10T19:36:52.122969-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-10T19:36:52-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-10T19:37:24.985072-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-10T19:37:24-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-10T19:37:59.468153-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-10T19:37:59-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-10T19:38:23.529697-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-10T19:38:23-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-10T19:45:05.713989-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-10T19:45:05-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-10T19:46:17.460804-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-10T19:46:17-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-10T19:49:41.420459-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-10T19:49:41-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-10T19:56:56.625604-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-10T19:56:56-03:00"}
+{"data_keys":["aws","terraform","kubernetes","timestamp"],"fields.timestamp":"2025-12-10T19:58:36.374221-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-10T19:58:36-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-10T20:26:06.350509-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-10T20:26:06-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-10T21:39:30.949334-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-10T21:39:30-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-10T22:40:34.214979-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-10T22:40:34-03:00"}
+{"data_keys":["aws","terraform","kubernetes","timestamp"],"fields.timestamp":"2025-12-10T23:59:10.035166-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-10T23:59:10-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T01:32:08.609382-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T01:32:08-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T02:44:29.280941-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T02:44:29-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T04:02:09.621793-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T04:02:09-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T05:04:31.137792-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T05:04:31-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T06:19:19.330281-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T06:19:19-03:00"}
+{"data_keys":["kubernetes","timestamp","aws","terraform"],"fields.timestamp":"2025-12-11T07:37:36.628829-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T07:37:36-03:00"}
+{"data_keys":["aws","terraform","kubernetes","timestamp"],"fields.timestamp":"2025-12-11T08:19:30.938882-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T08:19:30-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T08:30:25.148526-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T08:30:25-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T08:39:02.219046-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T08:39:02-03:00"}
+{"data_keys":["aws","terraform","kubernetes","timestamp"],"fields.timestamp":"2025-12-11T08:40:32.081796-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T08:40:32-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T08:41:04.523417-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T08:41:04-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T08:41:43.607636-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T08:41:43-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T08:42:14.339683-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T08:42:14-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T08:42:45.567662-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T08:42:45-03:00"}
+{"data_keys":["aws","terraform","kubernetes","timestamp"],"fields.timestamp":"2025-12-11T08:45:45.824096-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T08:45:45-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T08:48:17.662841-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T08:48:17-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T08:50:49.974827-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T08:50:49-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T08:53:21.714592-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T08:53:21-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T08:55:58.567177-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T08:55:58-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T08:58:30.477317-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T08:58:30-03:00"}
+{"data_keys":["kubernetes","timestamp","aws","terraform"],"fields.timestamp":"2025-12-11T09:01:02.621798-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T09:01:02-03:00"}
+{"data_keys":["terraform","kubernetes","timestamp","aws"],"fields.timestamp":"2025-12-11T09:03:39.151372-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T09:03:39-03:00"}
+{"data_keys":["terraform","kubernetes","timestamp","aws"],"fields.timestamp":"2025-12-11T09:06:10.585329-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T09:06:10-03:00"}
+{"data_keys":["terraform","kubernetes","timestamp","aws"],"fields.timestamp":"2025-12-11T09:08:45.004442-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T09:08:45-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T09:11:43.453122-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T09:11:43-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T09:14:13.639242-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T09:14:13-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T09:16:43.815714-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T09:16:43-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T09:19:14.078982-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T09:19:14-03:00"}
+{"data_keys":["aws","terraform","kubernetes","timestamp"],"fields.timestamp":"2025-12-11T09:21:44.23337-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T09:21:44-03:00"}
+{"data_keys":["timestamp","aws","terraform","kubernetes"],"fields.timestamp":"2025-12-11T09:24:14.377857-03:00","level":"info","message":"Received agent data sync","timestamp":"2025-12-11T09:24:14-03:00"}

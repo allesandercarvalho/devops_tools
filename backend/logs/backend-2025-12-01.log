@@ -1,0 +1,12 @@
+{"level":"info","message":"Starting DevOps Tools API","timestamp":"2025-12-01T11:27:27-03:00"}
+{"level":"info","message":"Server starting","port":"3003","timestamp":"2025-12-01T11:27:27-03:00","version":"2.0"}
+{"level":"info","message":"Starting DevOps Tools API","timestamp":"2025-12-01T21:01:26-03:00"}
+{"level":"info","message":"Server starting","port":"3003","timestamp":"2025-12-01T21:01:26-03:00","version":"2.0"}
+{"level":"info","message":"Starting DevOps Tools API","timestamp":"2025-12-01T21:02:17-03:00"}
+{"level":"info","message":"Server starting","port":"3003","timestamp":"2025-12-01T21:02:17-03:00","version":"2.0"}
+{"error":"failed to listen: listen tcp4 :3003: bind: address already in use","level":"error","message":"Failed to start server","timestamp":"2025-12-01T21:02:17-03:00"}
+{"level":"info","message":"Starting DevOps Tools API","timestamp":"2025-12-01T21:18:00-03:00"}
+{"level":"info","message":"Server starting","port":"3003","timestamp":"2025-12-01T21:18:00-03:00","version":"2.0"}
+{"count":4,"level":"info","message":"Executing ping","target":"google.com","timestamp":"2025-12-01T22:18:29-03:00"}
+{"level":"info","message":"Starting DevOps Tools API","timestamp":"2025-12-01T22:29:36-03:00"}
+{"level":"info","message":"Server starting","port":"3003","timestamp":"2025-12-01T22:29:36-03:00","version":"2.0"}

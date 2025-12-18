@@ -1,0 +1,19 @@
+{"level":"info","message":"Starting DevOps Tools API","timestamp":"2025-12-17T17:21:22-03:00"}
+{"level":"info","message":"Server starting","port":"3002","timestamp":"2025-12-17T17:21:22-03:00","version":"2.0"}
+{"level":"info","message":"Starting DevOps Tools API","timestamp":"2025-12-17T17:26:06-03:00"}
+{"level":"info","message":"Server starting","port":"3002","timestamp":"2025-12-17T17:26:06-03:00","version":"2.0"}
+{"level":"warning","message":"AWS command failed: aws ecs list-clusters","timestamp":"2025-12-17T17:55:42-03:00"}
+{"error":"operation error S3: ListBuckets, get identity: get credentials: failed to refresh cached credentials, operation error STS: AssumeRole, https response error StatusCode: 403, RequestID: 5a88090e-69e4-40e7-9676-7723c56148b2, api error InvalidClientTokenId: The security token included in the request is invalid","level":"error","message":"Failed to list S3 buckets","timestamp":"2025-12-17T17:56:22-03:00"}
+{"error":"operation error S3: ListBuckets, get identity: get credentials: failed to refresh cached credentials, operation error STS: AssumeRole, https response error StatusCode: 403, RequestID: 01552725-7248-4209-bdc2-1d7ca9f9479d, api error InvalidClientTokenId: The security token included in the request is invalid","level":"error","message":"Failed to list S3 buckets","timestamp":"2025-12-17T17:56:26-03:00"}
+{"error":"operation error EC2: DescribeInstances, get identity: get credentials: failed to refresh cached credentials, operation error STS: AssumeRole, https response error StatusCode: 403, RequestID: afc7c158-6aa1-490d-b46f-e58f0b2fdfeb, api error InvalidClientTokenId: The security token included in the request is invalid","level":"error","message":"Failed to list EC2 instances","timestamp":"2025-12-17T17:56:31-03:00"}
+{"error":"operation error RDS: DescribeDBInstances, get identity: get credentials: failed to refresh cached credentials, operation error STS: AssumeRole, https response error StatusCode: 403, RequestID: 2d629d3a-f0df-4177-aa45-84b25ce2ec10, api error InvalidClientTokenId: The security token included in the request is invalid","level":"error","message":"Failed to list RDS instances","timestamp":"2025-12-17T17:56:32-03:00"}
+{"error":"operation error RDS: DescribeDBInstances, get identity: get credentials: failed to refresh cached credentials, operation error STS: AssumeRole, https response error StatusCode: 403, RequestID: 8e713543-7213-47dc-aff8-9c6c55e617b0, api error InvalidClientTokenId: The security token included in the request is invalid","level":"error","message":"Failed to list RDS instances","timestamp":"2025-12-17T17:56:34-03:00"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-17T17:57:18-03:00","type":"A"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-17T17:57:39-03:00","type":"A"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-17T17:57:51-03:00","type":"A"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-17T17:58:22-03:00","type":"A"}
+{"domain":"google.com","level":"info","message":"Checking DNS propagation","timestamp":"2025-12-17T17:58:43-03:00","type":"A"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-17T17:59:00-03:00","type":"A"}
+{"level":"info","message":"Executing DNS lookup","target":"google.com","timestamp":"2025-12-17T17:59:18-03:00","type":"A"}
+{"count":4,"level":"info","message":"Executing ping","target":"google.com","timestamp":"2025-12-17T17:59:53-03:00"}
+{"count":4,"level":"info","message":"Executing ping","target":"google.com","timestamp":"2025-12-17T18:00:12-03:00"}

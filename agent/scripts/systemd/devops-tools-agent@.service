@@ -1,0 +1,24 @@
+[Unit]
+Description=DevOps Tools Agent
+After=network.target
+
+[Service]
+Type=simple
+User=%i
+WorkingDirectory=/opt/devops-tools-agent
+ExecStart=/opt/devops-tools-agent/agent
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=devops-tools-agent
+
+# Security
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/%i/.aws /home/%i/.kube /home/%i/.terraform.d
+
+[Install]
+WantedBy=multi-user.target
